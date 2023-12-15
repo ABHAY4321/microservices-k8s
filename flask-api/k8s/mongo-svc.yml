@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: mongo
-  name: mongo
+  name: mongo  # This is service name for mongodb. In app.py, it is mentioned that it will be accessed by hostname i.e mongo. If we put differnt name here, we will get "Server selection timeout error"
 spec:
   ports:
     - port: 27017
