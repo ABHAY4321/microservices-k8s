@@ -10,3 +10,4 @@ spec:
       targetPort: 27017
   selector:
     app: mongo
+# Beware of service name for mongodb. We need to give exact name which is mentioned in "app.py" i.e "mongo".
