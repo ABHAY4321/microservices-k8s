@@ -20,7 +20,7 @@ spec:
             - containerPort: 27017
           volumeMounts:
             - name: storage
-              mountPath: /data/db
+              mountPath: /data/db    # Container's directory.
       volumes:
         - name: storage
           persistentVolumeClaim:
