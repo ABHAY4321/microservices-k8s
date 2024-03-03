@@ -8,4 +8,4 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: /tmp/db  # Container's path
+    path: /tmp/db  # Local host's path
