@@ -2,6 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   name: taskmaster-svc
+  labels:
+    app: taskmaster
 spec:
   selector:
     app: taskmaster
